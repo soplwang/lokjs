@@ -1,0 +1,29 @@
+{
+  "name": "lokjs",
+  "version": "1.0.0",
+  "description": "Utilities for callback hell",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec",
+    "jshint": "jshint index.js test/ example/ || exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soplwang/lokjs.git"
+  },
+  "keywords": [
+    "then",
+    "callback",
+    "promise",
+    "co"
+  ],
+  "author": "Wang Wenlin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/soplwang/lokjs/issues"
+  },
+  "homepage": "https://github.com/soplwang/lokjs#readme",
+  "devDependencies": {
+    "co": "^4.6.0"
+  }
+}
